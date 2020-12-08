@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox layoutX="-2.0" prefHeight="400.0" prefWidth="213.0" style="-fx-background-color: #477bc9#477bc9;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="22.0" prefWidth="268.0" style="-fx-background-color: #477bc9#477bc9;" text="Colour IT " textFill="WHITE">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <font>
+                  <Font size="31.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Logo1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#skifttilforside" prefHeight="26.0" prefWidth="240.0" style="-fx-background-color: #477bc9#477bc9;" text="Scrummaster" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#skifttilforside" prefHeight="26.0" prefWidth="310.0" style="-fx-background-color: #477bc9#477bc9;" text="Teammedlem" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="382.0" style="-fx-background-color: #477bc9#477bc9;" text="NAVN?" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="234.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="382.0" style="-fx-background-color: #477bc9#477bc9;" text="NAVN?" textFill="WHITE">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
